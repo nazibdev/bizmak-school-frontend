@@ -1,0 +1,19 @@
+.logo-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    /* Adjust the height as needed */
+    overflow: hidden;
+    /* Hide overflowing logos */
+}
+
+.logo {
+    max-width: relative;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.logo.active {
+    opacity: 1;
+}

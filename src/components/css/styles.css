@@ -1,0 +1,376 @@
+.overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+
+  .about {
+    margin-bottom: 150px;
+  }
+
+  .about .about-header {
+    text-align: center;
+}
+
+.about .about-row {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-column-gap: 10%;
+  column-gap: 10%;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.about .about-row .about-column {
+  position: relative;
+}
+
+.about .about-row .about-column-inv {
+  text-align: end;
+}
+
+.about .about-row .about-column {
+  position: relative;
+}
+
+.edtqif {
+  max-width: 1280px;
+  margin: 0px auto;
+}
+
+.gfwKde {
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .jNGtkI {
+  font-family: Inter, Inter-Bold;
+  font-size: 1.5rem;
+  letter-spacing: 0px;
+  line-height: 36px;
+  font-weight: 700;
+  }
+}
+
+@media (min-width: 992px) {
+  .iinyyu {
+  max-width: 768px;
+  }
+}
+
+.iinyyu {
+  margin: 0px;
+  font-family: Inter, Inter-Regular;
+  font-size: 1rem;
+  letter-spacing: 0px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+.khUGRK {
+  margin-top: 3rem;
+  flex-direction: row;
+  }
+}
+
+.ZeFHk {
+  flex: 1 1 0%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fade-in-text {
+  font-family: Arial;
+  font-size: 150px;
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.box:hover {
+  background-color: lightblue;
+}
+/* .fade-in-image {
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 10;
+  }
+} */
+
+
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: #333;
+  /* Background color for the hero section */
+  overflow: hidden;
+  /* Hide overflowing content within the hero */
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* .hero-text h1 {
+  color: red;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  color: black;
+  font-size: 1.2rem;
+} */
+
+.hero-title {
+  font-size: 36px;
+  color: red;
+  /* Adjust the font size as needed */
+}
+
+.hero-description {
+  font-size: 18px;
+  /* Adjust the font size as needed */
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 16px;
+    color: red;
+    /* Adjust the font size for mobile devices */
+  }
+
+  .hero-description {
+    font-size: 12px;
+    color: black;
+    /* Adjust the font size for mobile devices */
+  }
+}
+
+
+.why-choose-us {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+}
+
+.why-choose-us img{
+  max-width: 100%;
+  /* Adjust the maximum width as needed */
+  margin-right: 20px;
+  /* Add some spacing between the image and text */
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 768px) {
+  .why-choose-us {
+    flex-direction: column;
+    /* Stack items vertically on mobile */
+    text-align: center;
+    /* Center align text on mobile */
+  }
+
+  .why-choose-us img{
+    max-width: 100%;
+    /* Make the image fit within the container on mobile */
+    margin-right: 0;
+    /* Remove margin on mobile */
+    margin-bottom: 20px;
+    /* Add some spacing between the image and text on mobile */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* Contact Us Container */
+.contact-us-container {
+  display: flex;
+  flex-direction: row;
+  /* Display image and form side by side */
+  align-items: center;
+  /* Center vertically */
+  padding: 20px;
+}
+
+/* Contact Image */
+.contact-image img {
+  max-width: 50%;
+  /* Make sure the image fits within its container */
+}
+
+/* Contact Form */
+.contact-form {
+  flex: 1;
+  /* Allow the form to take up remaining space */
+  padding: 20px;
+  background-color: #f7f7f7;
+  /* Set your desired background color */
+  border: 1px solid #ddd;
+  /* Add a border for separation */
+  border-radius: 5px;
+}
+
+/* Form Group Styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+  display: block;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  resize: vertical;
+  /* Allow vertical resizing for the textarea */
+}
+
+/* Submit Button */
+button[type="submit"] {
+  background-color: #007bff;
+  /* Set your desired button color */
+  color: #fff;
+  /* Text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contact-us-container {
+    flex-direction: column;
+    /* Stack image and form on top of each other */
+    align-items: center;
+  }
+
+  .contact-form {
+    margin-top: 20px;
+  }
+
+  .contact-image img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+/* .content-center-drawer {
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: blanchedalmond;
+      
+}
+
+.entire-font-should-be {
+  
+  width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}*/
+/* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  /* overflow: hidden; */
+
+
+
+
+/* Success Message */
+.success-message {
+  background-color: #4CAF50;
+  /* Green background color */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  animation: fadeOut 5s ease-in-out forwards;
+  /* Fade out animation */
+}
+
+/* Error Message */
+.error-message {
+  background-color: #f44336;
+  /* Red background color */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  animation: fadeout 5s ease-in-out forwards;
+  /* Fade out animation */
+}
+
+/* Keyframes for fadeOut animation */
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    display: none;
+    /* Hide the element after fading out */
+  }
+}
